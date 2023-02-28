@@ -1,0 +1,32 @@
+export const location_data = [
+  {
+    id: 1,
+    title: 'Black Hawk Palace',
+    location: 'Oradea',
+    google_maps_link: 'https://goo.gl/maps/u35qWz9zCtvgVn5o6',
+    start_date: '6 Feb 2023',
+    end_date: '9 Feb 2023',
+    description: 'The Black Eagle Palace is the most spectacular secession style architectural achievement in Oradea and Transylvania. The story of the Black Eagle Palace is linked to the new urban development vision of the city, given the reorganization of the Small Square.',
+    image_url: 'https://i.imgur.com/RTO4i6R.jpg',
+  },
+  {
+    id: 2,
+    title: 'Victory Square',
+    location: 'Timișoara',
+    google_maps_link: 'https://goo.gl/maps/92k6BnKpFFxH5ebf9',
+    start_date: '9 Dec 2022',
+    end_date: '13 Dec 2022',
+    description: 'The Victory Square, is the central square of Timișoara. It is the place where Timișoara was proclaimed on 20 December 1989 the first city free of communism in Romania.',
+    image_url: 'https://i.imgur.com/YEvMwzE.jpg',
+  },
+  {
+    id: 3,
+    title: 'Union Square',
+    location: 'Cluj-Napoca',
+    google_maps_link: 'https://goo.gl/maps/w6iPg8fdKJQ1kM4S6',
+    start_date: '22 Feb 2023',
+    end_date: '25 Feb 2023',
+    description: 'The central district of the city spreads out from this square. The St. Michael\'s Church, with the highest church tower in Romania (80m). Also, the statue of King of Hungary Matthias Corvinus is located here.',
+    image_url: 'https://i.imgur.com/kPVAj4Y.jpg',
+  },
+]
