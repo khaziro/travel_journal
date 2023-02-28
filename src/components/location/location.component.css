@@ -1,0 +1,66 @@
+
+.location_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.location_image > img {
+    height: 20em;
+    border-radius: 1em;
+}
+
+.location_details {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0.5em 0.5em 1em;
+
+}
+
+.location_details_top_location {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.location_details_top > img {
+    height: 1.4em;
+}
+
+.location_town {
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+}
+
+.google_maps_link > a {
+    font-size: 1.2em;
+    color: #918E9B;
+}
+
+.location_name {
+    padding: 0.2em 0 0.3em;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.location_date {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.location_description {
+    color: #2B283A;
+    font-size: 1em;
+    line-height: 150%;
+}
+
+@media (max-width: 450px) {
+    .location_container {
+        padding: 1em;
+    }
+
+    .location_details_top {
+        flex-direction: column;
+    }
+}
